@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* Fundo Preto para a Página */
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
 /* Header fixo */
 header {
     position: fixed;
@@ -179,6 +185,7 @@ footer {
 /* Estilo para Informações do Perfil */
 .profile-info {
     background-color: #fff;
+    color: #000; /* Mantém o texto preto */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -201,27 +208,16 @@ footer {
 /* Estilo para Atividades Recentes */
 .recent-activities {
     background-color: #f9f9f9;
+    color: #000; /* Mantém o texto preto */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.recent-activities h2 {
-    margin-bottom: 15px;
-}
-
-.recent-activities ul {
-    list-style: none;
-    padding: 0;
-}
-
-.recent-activities li {
-    margin: 10px 0;
-}
-
 /* Estilo para Seção de Boas-Vindas */
 .welcome-section {
     background-color: #fff;
+    color: #000; /* Mantém o texto preto */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -236,64 +232,10 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Cards de Estatísticas */
-.stats-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Espaço entre os cards */
-    margin-bottom: 40px; /* Espaço abaixo dos cards */
-}
-
-.card {
-    flex: 1 1 calc(25% - 20px); /* 4 cards por linha, com espaço */
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.card h3 {
-    margin-bottom: 10px;
-}
-
-.card p {
-    color: #666;
-}
-
-/* Lista de Atividades Recentes */
-.recent-activities {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.recent-activities h2 {
-    margin-bottom: 15px;
-}
-
-.recent-activities ul {
-    list-style: none;
-    padding: 0;
-}
-
-.recent-activities li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-.recent-activities li img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-
-/* Estilo para Seção de Configurações */
+/* Estilo para Formulários na Página de Configurações */
 .settings {
     background-color: #fff;
+    color: #000; /* Mantém o texto preto */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -333,4 +275,3 @@ footer {
 .form-group button:hover {
     background-color: #555;
 }
-
