@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-/* Fundo Preto para a Página */
+/* Fundo Cinza Escuro para a Página */
 body {
-    background-color: #000; /* Fundo preto */
+    background-color: #1C1C1C; /* Fundo cinza escuro */
     color: #fff; /* Texto branco */
 }
 
@@ -74,7 +74,7 @@ header {
     top: 0;
     width: 200px;
     height: 100vh;
-    background-color: #222;
+    background-color: #333;
     padding-top: 60px; /* Ajuste para alinhar com o cabeçalho */
     color: #fff;
 }
@@ -117,18 +117,20 @@ header {
 
 .card {
     flex: 1 1 calc(25% - 20px); /* 4 cards por linha, com espaço */
-    background-color: #fff;
+    background-color: #333; /* Fundo dos cards cinza escuro */
+    color: #fff; /* Texto dos cards branco */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Ajuste para sombra clara */
     text-align: center;
 }
 
 /* Lista de Atividades Recentes */
 .recent-activities {
-    background-color: #f9f9f9;
+    background-color: #333; /* Fundo das atividades recentes cinza escuro */
     padding: 20px;
     border-radius: 8px;
+    color: #fff; /* Texto das atividades recentes branco */
 }
 
 .recent-activities h2 {
@@ -184,11 +186,11 @@ footer {
 
 /* Estilo para Informações do Perfil */
 .profile-info {
-    background-color: #fff;
-    color: #000; /* Mantém o texto preto */
+    background-color: #333; /* Fundo das informações do perfil cinza escuro */
+    color: #fff; /* Texto das informações do perfil branco */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Ajuste para sombra clara */
     margin-bottom: 40px;
 }
 
@@ -207,20 +209,41 @@ footer {
 
 /* Estilo para Atividades Recentes */
 .recent-activities {
-    background-color: #f9f9f9;
-    color: #000; /* Mantém o texto preto */
+    background-color: #333; /* Fundo das atividades recentes cinza escuro */
+    color: #fff; /* Texto das atividades recentes branco */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Ajuste para sombra clara */
+}
+
+.recent-activities h2 {
+    margin-bottom: 15px;
+}
+
+.recent-activities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activities li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.recent-activities li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 /* Estilo para Seção de Boas-Vindas */
 .welcome-section {
-    background-color: #fff;
-    color: #000; /* Mantém o texto preto */
+    background-color: #333; /* Fundo da seção de boas-vindas cinza escuro */
+    color: #fff; /* Texto da seção de boas-vindas branco */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Ajuste para sombra clara */
     margin-bottom: 40px;
 }
 
@@ -234,11 +257,11 @@ footer {
 
 /* Estilo para Formulários na Página de Configurações */
 .settings {
-    background-color: #fff;
-    color: #000; /* Mantém o texto preto */
+    background-color: #333; /* Fundo das configurações cinza escuro */
+    color: #fff; /* Texto das configurações branco */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Ajuste para sombra clara */
     margin-bottom: 40px;
 }
 
@@ -261,6 +284,8 @@ footer {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    background-color: #333; /* Fundo cinza escuro */
+    color: #fff; /* Texto branco */
 }
 
 .form-group button {
